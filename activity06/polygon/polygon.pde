@@ -13,12 +13,8 @@ void settings() {
 
 /* continuous loop */
 void draw() {
-  stroke(255);
-  polygon(6, 100);
-}
-
-void mousePressed() {
-          polygon(6, 100);                         /* draw the polygon */
+  stroke(155);                                     /* sets the color of the border to gray 155 */ 
+  polygon(6, 100);                                 /* calls the polygon function with 6 edges and radius 100 */
 }
 
 /* polygon function takes two parameters: number of edges and radius*/
