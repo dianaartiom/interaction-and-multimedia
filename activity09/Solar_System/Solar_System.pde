@@ -36,7 +36,7 @@ void drawShape(float angle, float translateDisplacement, float placement, float 
 void drawEarth() {
   earthAngle += 0.01;                           /* increments the mercury ellipse angle of rotation by 0.05 */
   pushMatrix();                                 /* pushes the current transformation matrix onto the matrix stack */
-  fill(0, 0, 255);                              /* colors the ellipse green */
+  fill(0, 0, 255);                              /* colors the ellipse blue */
   drawShape(earthAngle, 2.5, 20, 20);           /* draws the shape */
   fill(255, 255, 255);                          /* colors the ellipse white */
   moonAngle += 0.02;                            /* increments the mercury ellipse angle of rotation by 0.02 */
